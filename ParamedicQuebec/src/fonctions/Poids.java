@@ -18,17 +18,16 @@ public class Poids {
 		System.out.println();
 		System.out.printf("Le poids est %.2f ",poids);
 		System.out.print(unite);
+		scan.close();
 		
 	}
 
 
 	public static double lbsToKg (double x) {
-		// TODO Auto-generated method stub
 		x=x/2.2;
 		return x;
 	}
 	public static double kgToLbs (double x) {
-		// TODO Auto-generated method stub
 		x=x*2.2;
 		return x;
 	}
